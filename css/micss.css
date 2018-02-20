@@ -12,11 +12,6 @@ h1{
 	text-align:center;
 }
 
-p{
-	color:#FC0;
-	font-size:2em;
-}
-
 p span{font-size:2em;
 }
 
@@ -31,4 +26,14 @@ button{
 
 button:hover{
 	transform: scale(1.2);
+	letter-spacing: 3px;
+	color: white;
+}
+
+h3{
+	font-size: 25px;
+	margin: 5px 0px 10px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+
 }
