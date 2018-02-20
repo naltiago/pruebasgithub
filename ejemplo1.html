@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hola Alumnos</title>
+<link href="css/micss.css" rel="stylesheet">
+
+<script>
+	function juego(jugador){
+	
+		var jugada = ['Piedra','Papel','Tijera','Lagarto','Spock'];
+
+  		var maquina = Math.round(Math.random() * 5);
+
+  		var frases = [['La piedra empata con la piedra', 'La piedra pierde contra el papel', 'La piedra gana a las tijeras', 'La piedra gana al lagarto','La piedra pierde contra Spock'],
+  					 ['El papel gana a la piedra', ' El papel empata con el papel', 'El papel pierde contra las tijeras', 'El papel piede contra el lagarto', 'El papel gana a Spock'],
+  					 ['Las tijeras pierden contra la piedra', 'La tijeras ganan al papel', 'Las tijeras empatan con las tijeras', 'Las tijeras ganan al lagarto', 'Las tijeras pierden contra Spock'],
+  					 ['El lagarto pierde contra la piedra','El lagarto gana al papel', 'El largarto pierde contra la tijera' , 'El largado empata con el lagarto', 'El lagarto gana a Spock'],
+  					 ['Spock gana a la piedra', 'Spock pierde contra el papel', 'Spock pierde contra las tijeras', 'Spock pierde contra el lagarto', 'Spock empata con Spock']
+
+  		];
+
+  		alert(frases[jugador][maquina]);
+
+	}
+
+</script>
+</head>
+
+<body>
+
+<h1>Hola alumnos
+</h1>
+
+<p>Bienvenidos al curso de JavaScript de <span>Píldoras Informáticas</span></p>
+<img src="imgs/arbol.jpg" width="35%">
+
+	<button onclick="juego(0)">Piedra</button>
+	<button onclick="juego(1)">Papel</button>
+	<button onclick="juego(2)">Tijera</button>
+	<button onclick="juego(3)">Lagarto</button>
+	<button onclick="juego(4)">Spock</button>
+
+</body>
+</html>
