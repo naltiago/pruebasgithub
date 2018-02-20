@@ -26,5 +26,9 @@ button{
 	background-color: #4288D4;
 	color: black;
 	display: inline-block;
+	transition: 0.3;
+}
 
+button:hover{
+	transform: scale(1.2);
 }
