@@ -19,3 +19,12 @@ p{
 
 p span{font-size:2em;
 }
+
+button{
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: #4288D4;
+	color: black;
+	display: inline-block;
+
+}
